@@ -1,0 +1,19 @@
+body {
+    background: light-dark(white, black);
+    color: light-dark(black, white);
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+img {
+    border-radius: 2em;
+    box-shadow: 0 0 15px 3px #1A2A3A;
+}
+
+.bomba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
